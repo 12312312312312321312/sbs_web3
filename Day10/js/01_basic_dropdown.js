@@ -17,6 +17,7 @@ $(function() {
     //     // 모든 서브메뉴
     //     $('.submenu').stop().slideUp(500)
     // })
+    // 이 위에거만 외우면 됨 웹디자인기능사 실기
     
     $('.mainmenu').on('click', function() {
         // // //메인메뉴의 자식 서브메뉴만
