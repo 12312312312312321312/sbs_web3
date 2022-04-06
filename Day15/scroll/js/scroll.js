@@ -46,6 +46,15 @@ $(function() {
             $('.scroll-title').animate({'left' : left-= move}, 5)
         }
 
+
+        //따라 다니는 플로팅 버튼
+        $('.floating').stop().animate({'bottom': -now+15}, 300)
         prev = now
+    })
+
+    // 플로팅 버튼 클릭 이벤트
+    $('.floating').on('click',function() {
+        //스크롤 맨 위로 이동
+      $('html').animate({'scroll-top' : 0}, 1000)
     })
 })
